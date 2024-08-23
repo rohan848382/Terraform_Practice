@@ -1,10 +1,5 @@
+
 resource "aws_s3_bucket" "dev" {
-  bucket = "naresh-it-devopsss"
+  bucket = "naresh-it-devops-kphp"
 }
 
-resource "aws_s3_bucket_versioning" "name" {
-  bucket = aws_s3_bucket.dev.id
-  versioning_configuration {
-    status = "Enabled"
-  } 
-}
