@@ -2,9 +2,9 @@ provider "aws" {
   region = "ap-south-1"
 }
 resource "aws_instance" "name" {
-  ami = "ami-02b49a24cfb95941c"
-  instance_type = "t2.micro"
-  key_name = "public"
+  ami = ""
+  instance_type = ""
+  key_name = ""
 
   tags = {
     Name = "Dev-2"
